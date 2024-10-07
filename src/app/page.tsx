@@ -9,19 +9,28 @@ import Typewritter from "./(components)/Typewriter";
 export default function Home() {
   return (
     <>
-      <div className="h-screen relative">
+      <div className="md:h-screen relative h-full">
 
-        <h1 className="absolute text-8xl bottom-2/3 left-48 -z-10">Randika</h1>
+        <div className="absolute w-full h-5/6  grid grid-cols-2 ">
+          <h1 className=" flex justify-end items-end md:px-10 -z-10 md:text-8xl sm:text-7xl text-5xl">
+            Randika
+          </h1>
+          <h1></h1>
+          <h1></h1>
+
+          <h1 className="md:text-8xl sm:text-7xl text-5xl">
+            Dilshan
+          </h1>
+        </div>
 
         <Image
           src={myimage}
           alt="image"
-          className="h-full object-contain z-50" />
+          className=" h-screen object-cover  max-w-100 md:object-contain z-50  " />
 
-        <h1 className="absolute text-8xl top-44 mt-10 left-1/2">Dilshan</h1>
+
 
         <div className="absolute  bottom-1/4 w-full h-40 flex justify-center items-end">
-          {/* <h2 className="text-7xl">Backend Developer</h2> */}
           <Typewritter />
         </div>
 
@@ -36,8 +45,9 @@ export default function Home() {
         <Image
           src={shaow}
           alt="shaow"
-          className="w-full h-full object-fill absolute top-0" />
+          className="w-screen h-full object-fill absolute top-0" />
       </div>
+
     </>
   );
 }
