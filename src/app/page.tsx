@@ -12,7 +12,7 @@ export default function Home() {
 
       <Footbar />
 
-      <div className="md:h-screen relative h-full">
+      <div id="section1" className="md:h-screen fixed inset-0 h-full">
 
         <div className="absolute w-full h-5/6  grid grid-cols-2 ">
           <h1 className=" flex font-bangers justify-end items-end md:px-10 -z-10 md:text-8xl sm:text-7xl text-5xl md:tracking-widest tracking-wider">
@@ -42,7 +42,7 @@ export default function Home() {
           <span className={stylecss.scroll_icon}>
             <span className={stylecss.scroll_icon__dot}></span>
           </span>
-          <span className="text-sm">scroll</span>
+          <span className="text-sm font-League font-light tracking-[.25em]">scroll</span>
         </section>
 
         <Image
@@ -52,7 +52,7 @@ export default function Home() {
       </div>
 
 
-      <div className="h-screen relative align-middle flex flex-col justify-center ">
+      <div id="section2" className="h-screen relative align-middle flex flex-col justify-center bg-black mt-[100vh]" >
 
         <div className=" bg-zinc-900 rounded-sm p-10 md:flex sm:flex px-10">
           <p className="text-2xl">Hi, I’m Randika,a designer and front-end developer based in Wales.</p>
