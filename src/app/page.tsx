@@ -48,6 +48,17 @@ export default function Home() {
           className="w-screen h-full object-fill absolute top-0" />
       </div>
 
+
+      <div className="h-screen relative align-middle flex flex-col justify-center ">
+        
+        <div className=" bg-zinc-900 rounded-sm p-10 md:flex sm:flex px-10">
+          <p className="text-2xl">Hi, I’m Randika,a designer and front-end developer based in Wales.</p>
+          <div className="text-2xl mt-10 md:mt-0">With over a decade of experience in multiple disciplines, I work with companies to create intuitive and engaging digital experiences.</div>
+        </div>
+
+
+
+      </div>
     </>
   );
 }
