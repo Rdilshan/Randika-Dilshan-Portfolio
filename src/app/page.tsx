@@ -3,22 +3,25 @@ import myimage from "../../public/image.png";
 import shaow from "../../public/shadow-2.png";
 import stylecss from "./page.module.css";
 import Typewritter from "./(components)/Typewriter";
-
+import Footbar from "./(components)/Footbar";
 
 
 export default function Home() {
   return (
     <>
+
+      <Footbar />
+
       <div className="md:h-screen relative h-full">
 
         <div className="absolute w-full h-5/6  grid grid-cols-2 ">
-          <h1 className=" flex justify-end items-end md:px-10 -z-10 md:text-8xl sm:text-7xl text-5xl">
+          <h1 className=" flex font-bangers justify-end items-end md:px-10 -z-10 md:text-8xl sm:text-7xl text-5xl">
             Randika
           </h1>
           <h1></h1>
           <h1></h1>
 
-          <h1 className="md:text-8xl sm:text-7xl text-5xl">
+          <h1 className="font-bangers md:text-8xl sm:text-7xl text-5xl">
             Dilshan
           </h1>
         </div>
@@ -50,7 +53,7 @@ export default function Home() {
 
 
       <div className="h-screen relative align-middle flex flex-col justify-center ">
-        
+
         <div className=" bg-zinc-900 rounded-sm p-10 md:flex sm:flex px-10">
           <p className="text-2xl">Hi, I’m Randika,a designer and front-end developer based in Wales.</p>
           <div className="text-2xl mt-10 md:mt-0">With over a decade of experience in multiple disciplines, I work with companies to create intuitive and engaging digital experiences.</div>
@@ -59,6 +62,7 @@ export default function Home() {
 
 
       </div>
+
     </>
   );
 }

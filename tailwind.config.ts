@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        bangers:["Bangers", "system-ui"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
