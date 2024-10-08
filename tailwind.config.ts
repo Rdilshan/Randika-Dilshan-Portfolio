@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         bangers:["Bangers", "system-ui"],
+        League:["League Gothic", "sans-serif"]
       },
       colors: {
         background: "var(--background)",

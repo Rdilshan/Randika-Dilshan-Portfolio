@@ -68,7 +68,7 @@ function Typewriter() {
     }, []);
 
     return (
-        <h1 className="text-4xl md:text-7xl">
+        <h1 className="text-4xl md:text-7xl font-League font-thin">
             <a href="" className="typewrite" data-period="2000" data-type='[ "Full-stack Developer", "Mobile App Developer", "AI/ML Developer" ]' ref={typewriterRef}>
                 <span className="wrap"></span>
             </a>
