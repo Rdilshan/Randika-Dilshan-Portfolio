@@ -1,9 +1,16 @@
-import React from 'react'
-
+'use client';
+import React, { useEffect,  useRef } from 'react';
+import {useScrollStore} from "./store";
 function Mywork() {
+
+    const scrolval = useScrollStore((state) => state.scroll);
+    const setscroval = useScrollStore((state) => state.setScroll);
+
     return (
         <>
-            <div id="section3" className="h-screen relative flex flex-col items-center bg-black py-10 " >
+            <div id="section3" className="h-screen relative flex flex-col items-center bg-black py-10 " 
+            style={scrolval == '1' ? {marginTop: '100vh'} : { marginTop: '0vh' }}
+            >
 
                 <h1 className="text-5xl font-League font-thin tracking-wider leading-tight">LATEST WORK</h1>
                 <div className="bg-red-500 w-full h-3/4 flex justify-center">
