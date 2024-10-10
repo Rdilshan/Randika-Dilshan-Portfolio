@@ -4,6 +4,8 @@ import shaow from "../../public/shadow-2.png";
 import stylecss from "./page.module.css";
 import Typewritter from "./(components)/Typewriter";
 import Footbar from "./(components)/Footbar";
+import About from "./(components)/About";
+
 
 //last work
 import arrow from "../../public/diagonal-arrow-right-up-outline.svg"
@@ -56,16 +58,9 @@ export default function Home() {
       </div>
 
 
-      <div id="section2" className="h-screen relative align-middle flex flex-col justify-center bg-black mt-[100vh]" >
+    <About />
 
-        <div className=" bg-zinc-900 px-10 rounded-sm p-10 md:flex sm:flex md:px-32 ">
-          <p className="text-4xl md:text-5xl font-League font-thin tracking-wider leading-tight">Hi, Im Randika,a designer and front-end developer based in Wales.</p>
-          <p className="text-3xl font-League tracking-wider leading-tight mt-10 md:mt-0">With over a decade of experience in multiple disciplines, I work with companies to create intuitive and engaging digital experiences.</p>
-        </div>
-
-      </div>
-
-      <div id="section3" className="h-screen relative flex flex-col items-center bg-black py-10" >
+      <div id="section3" className="h-screen relative flex flex-col items-center bg-black py-10 " >
 
         <h1 className="text-5xl font-League font-thin tracking-wider leading-tight">LATEST WORK</h1>
         <div className="bg-red-500 w-full h-3/4 flex justify-center">
