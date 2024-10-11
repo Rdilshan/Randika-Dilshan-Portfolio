@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -25,4 +25,16 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+#section2,
+#section3 {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
 }
