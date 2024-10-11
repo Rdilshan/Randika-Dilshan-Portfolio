@@ -39,3 +39,22 @@ body {
 
   /* scroll-snap-align: start; */
 }
+#imglastwork{
+  position: sticky;
+  top: 70px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+#imglastworklast{
+  position: sticky;
+  top: 70px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
