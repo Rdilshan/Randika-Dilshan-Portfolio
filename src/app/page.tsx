@@ -16,6 +16,7 @@ export default function Home() {
 
       <Footbar />
 
+
       <div id="section1" className="md:h-screen fixed inset-0 h-full">
 
         <div className="absolute w-full h-5/6  grid grid-cols-2 ">
