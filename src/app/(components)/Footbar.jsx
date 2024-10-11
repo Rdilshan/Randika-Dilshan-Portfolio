@@ -26,7 +26,7 @@ function Footbar() {
     <>
       <div
         className={`
-    fixed bottom-5 w-full flex justify-center z-50
+    fixed bottom-5 w-full flex justify-center z-40
     transition-all duration-1000 ease-in-out transform
     ${showTypewriter
             ? 'opacity-100 translate-y-0'
