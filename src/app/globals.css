@@ -58,3 +58,29 @@ body {
   align-items: center;
   background-size: cover;
 }
+
+#mainimageonpage1{
+  z-index: -10;
+}
+
+@keyframes float-wrapper {
+  0% {
+    transform: scale(0.99);
+  }
+
+  50% {
+    transform: scale(0.99, 1) translate3d(-10px, 0, 0px);
+  }
+
+  100% {
+    transform: scale(0.99);
+  }
+}
+
+#section1:hover #mainimageonpage1, #mainimageonpage2{
+  animation: float-wrapper 5s infinite; 
+}
+
+#section1:hover  #mainimageonpage2{
+  animation: float-wrapper 15s; 
+}

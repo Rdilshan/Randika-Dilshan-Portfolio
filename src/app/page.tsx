@@ -19,14 +19,14 @@ export default function Home() {
 
       <div id="section1" className="md:h-screen fixed inset-0 h-full">
 
-        <div className="absolute w-full h-5/6  grid grid-cols-2 ">
-          <h1 className=" flex font-bangers justify-end items-end md:px-10 -z-10 md:text-8xl sm:text-7xl text-5xl md:tracking-widest tracking-wider">
+        <div   className="absolute w-full h-5/6  grid grid-cols-2 ">
+          <h1 id="mainimageonpage1" className=" flex font-bangers justify-end items-end md:px-10 -z-10 md:text-8xl sm:text-7xl text-5xl md:tracking-widest tracking-wider">
             Randika
           </h1>
           <h1></h1>
           <h1></h1>
 
-          <h1 className="font-bangers md:text-8xl sm:text-7xl text-5xl md:tracking-widest tracking-wider">
+          <h1 id="mainimageonpage2" className="font-bangers md:text-8xl sm:text-7xl text-5xl md:tracking-widest tracking-wider">
             Dilshan
           </h1>
         </div>
