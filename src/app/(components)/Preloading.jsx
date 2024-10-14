@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-function preloading() {
+function Preloading() {
 
   const [value, setvalue] = useState(100);
 
@@ -43,4 +43,4 @@ function preloading() {
   )
 }
 
-export default preloading
+export default Preloading

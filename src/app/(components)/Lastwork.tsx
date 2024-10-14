@@ -10,7 +10,7 @@ function Lastwork() {
         <>
             <div id="section3" className="h-screen relative flex flex-col items-center bg-black py-10" >
 
-                <h1 className="text-5xl font-League font-thin tracking-wider leading-tight mb-10">LATEST WORK</h1>
+                <h1 className="text-5xl font-League font-thin tracking-wider leading-tight mb-10">LATEST WORK</h1>
 
                 <div className=" w-full md:h-3/4 flex justify-center">
                     <div className="bg-zinc-900 w-[60vh] md:w-[95vh]  rounded-b-lg">
@@ -107,7 +107,7 @@ function Lastwork() {
 
                         <div className="bg-zinc-900 flex justify-between rounded-b-lg">
                             <span className="flex items-center ml-5 text-[2vh] md:text-[3vh]">
-                                Discovering Sri Lanka's Best Sales.</span>
+                                Discovering Sri Lanka&apos;s Best Sales.</span>
                             <Link href={"https://www.linkedin.com/posts/randikadilshanmanamendra_im-happy-to-share-this-vehical-buysearch-activity-7206147998676905984-rRE1?utm_source=share&utm_medium=member_desktop"}>
                                 <div className="w-5 md:w-8 border border-white rounded-md m-5">
 

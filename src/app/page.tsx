@@ -1,6 +1,5 @@
 'use client';
 import { useState, useEffect } from "react";
-import Footbar from "./(components)/Footbar";
 import About from "./(components)/About";
 import Contact from "./(components)/Contact";
 import Lastwork from "./(components)/Lastwork";
@@ -10,7 +9,7 @@ import Preloading from "./(components)/Preloading";
 export default function Home() {
   const [showPreloading, setShowPreloading] = useState(true);
   const [fadeOut, setFadeOut] = useState(false); 
-  const [fadeIn, setFadeIn] = useState(false); 
+
 
   useEffect(() => {
     const timer = setTimeout(() => {
