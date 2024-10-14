@@ -41,7 +41,7 @@ body {
 }
 #imglastwork{
   position: sticky;
-  top: 70px;
+  top: 17vh;
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -51,7 +51,7 @@ body {
 
 #imglastworklast{
   position: sticky;
-  top: 70px;
+  top: 20vh;
   height: 80vh;
   display: flex;
   justify-content: center;
