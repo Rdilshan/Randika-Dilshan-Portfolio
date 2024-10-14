@@ -84,3 +84,8 @@ body {
 #section1:hover  #mainimageonpage2{
   animation: float-wrapper 15s; 
 }
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
