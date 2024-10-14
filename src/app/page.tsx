@@ -34,6 +34,7 @@ export default function Home() {
 
       {!showPreloading && (
         <>
+        {/* <Footbar /> */}
           <Mainpage />
           <About />
           <Lastwork />

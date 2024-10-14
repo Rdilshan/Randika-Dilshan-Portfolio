@@ -48,11 +48,22 @@ const config: Config = {
             transform: "scale(1)",
           },
         },
+        "fade-in-up": {
+          "0%": {
+            opacity: "0",
+            transform: "translate3d(0, 100%, 0)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translate3d(0, 0, 0)",
+          },
+        },
       },
       animation: {
         fadeinleft: "fade-in-left 1s ease-in-out 0.25s 1",
         fadeinright: "fade-in-right 1s ease-in-out 0.25s 1",
         dropin: "drop-in 0.5s ease-in-out 0.25s 1",
+        fadeinup: "fade-in-up 1s ease-in-out 0.25s 1",
       },
     },
   },

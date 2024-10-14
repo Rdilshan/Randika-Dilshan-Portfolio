@@ -10,7 +10,6 @@ function preloading() {
     const timer = setInterval(() => {
       setvalue((prevValue) => {
         if (prevValue > 0) {
-          console.log("Running");
           return prevValue - 1;
         } else {
           clearInterval(timer); 
