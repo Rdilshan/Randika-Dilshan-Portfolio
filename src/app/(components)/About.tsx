@@ -11,6 +11,15 @@ function About() {
                 </div>
 
             </div>
+
+            <div  id="section3" className="h-screen relative align-middle flex flex-col justify-center bg-black"  >
+
+                <div className=" bg-zinc-900 px-10 rounded-sm p-10 md:flex sm:flex md:px-32 w-full">
+                    <div className="text-4xl md:text-5xl font-League font-thin tracking-wider leading-tight text-left flex-1">#########################.</div>
+                    
+                </div>
+
+            </div>
         </>
     )
 }
